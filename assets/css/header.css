@@ -1,11 +1,13 @@
-* {
-  box-sizing: border-box;
+.margin {
+  margin: 0;
+  font-family: "Lato";
 }
-.row {
+.header {
+  padding: 15px 0;
+}
+.center {
   justify-content: space-between;
   align-items: center;
-}
-.logo-link {
 }
 .logo-img {
   width: 128px;
@@ -15,12 +17,12 @@
   justify-content: space-around;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
   color: #939699;
-  font-family: Lato;
   font-weight: 900;
   font-size: 14px;
   line-height: 20px;
@@ -39,15 +41,13 @@
   border: none;
   color: #ffffff;
   font-family: Lato;
-  font-style: normal;
   font-weight: 900;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
+  outline: none;
 }
-
-.btn-icon {
+.btn-icon,
+.btn-price {
   margin-right: 10px;
-}
-.btn-text {
 }

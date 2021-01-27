@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Willberries</title>
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
   </head>
-  <body>
-    <header class="container">
-      <section class="row">
+  <body class="margin">
+    <header class="container header">
+      <section class="row center">
         <div class="col-2">
-          <a class="logo-link" href="#">
+          <a href="#">
             <img
               class="logo-img"
-              src="./img/logo.svg"
+              src="./assets/img/logo.svg"
               alt="logo: Willberries"
             />
           </a>
@@ -34,11 +34,109 @@
         </div>
         <div class="col-2 justify-content">
           <button class="btn">
-            <img class="btn-icon" src="./img/cart.svg" alt="icon: cart" />
-            <span class="btn-text">Cart</span>
+            <img
+              class="btn-icon"
+              src="./assets/img/cart.svg"
+              alt="icon: cart"
+            />
+            <span>Cart</span>
           </button>
         </div>
       </section>
     </header>
+    <div class="slider">
+      <section class="slide slide-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 offset-lg-1">
+              <span class="label">Bestseller </span>
+              <h2 class="slide-title">Sweater Choker Neck</h2>
+              <p class="slide-description">
+                Women's pearl basic knit sweater with a round neck. Available in
+                severa colours. Free shipping to stores.
+              </p>
+              <button class="btn">
+                <span class="btn-price">$319</span>
+                <span class="btn-text">Shop now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="slider-nav">
+        <div class="container">
+          <div class="row between">
+            <div class="col-1">
+              <button class="slider-btn">
+                <img src="./assets/img/arrow-prev.svg" alt="icon: arrow-prev" />
+              </button>
+            </div>
+            <div class="col-1">
+              <button class="slider-btn">
+                <img src="./assets/img/arrow-next.svg" alt="icon: arrow-next" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container padding">
+      <div class="row">
+        <div class="col-6">
+          <div class="card card-1">
+            <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
+            <p class="card-text">
+              Bags & Acsessories & Lingerie & Sportswear & Beauty & Swimwear
+            </p>
+            <button class="btn">
+              <span class="btn-text">View all</span>
+              <img
+                class="btn-icon"
+                src="./assets/img/arrow.svg"
+                alt="icon: arrow"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card card-2">
+            <h3 class="card-title text-line">
+              Catch the Sun: Spring Break Styles From $5.99
+            </h3>
+            <p class="card-text text-line">
+              Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit
+            </p>
+            <button class="btn">
+              <span class="btn-text">View all</span>
+              <img
+                class="btn-icon"
+                src="./assets/img/arrow.svg"
+                alt="icon: arrow"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="card card-3">
+            <span class="label">Bestseller</span>
+            <h3 class="card-title large">Poplin Top<br />With Sleeve Bow</h3>
+            <p class="card-text large">
+              Poplin top with roll neckline, long sleeves
+            </p>
+            <button class="btn">
+              <span class="btn-price">$129</span>
+              <span class="btn-text">Shop now</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card card-4">
+            <h3 class="card-title text-line max-width">Printed Shirt with a Bow</h3>
+            <p class="card-text text-line">Pink/Sky Blue/Yellow</p>
+            <span class="card-price">$129</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,79 @@
+.padding {
+  padding-top: 3rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.card {
+  min-height: 370px;
+  border-radius: 10px;
+  padding: 60px 46px 80px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.card-1 {
+  background-color: #e3e2e3;
+  background-image: url("../img/card-image-1.jpg");
+  background-size: cover;
+  margin-bottom: 1.5rem !important;
+}
+.card-2 {
+  background-color: #000000;
+  background-image: url("../img/card-image-2.jpg");
+  background-size: cover;
+  margin-bottom: 1.5rem !important;
+}
+.card-3 {
+  padding-top: 35px;
+
+  background-color: #ccd5e6;
+  background-image: url("../img/card-image-3.png");
+  background-size: contain;
+  background-position: top right 10%;
+}
+.card-4 {
+  padding-top: 35px;
+  padding-left: 25px;
+  background-color: #ff4f52;
+  background-image: url("../img/card-image-4.png");
+  background-size: contain;
+}
+.card-title {
+  color: #262d33;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: "Roboto Slab";
+  max-width: 222px;
+  margin: 0;
+}
+.card-title.large {
+  max-width: 420px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.card-text {
+  max-width: 176px;
+  color: #4b5157;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.card-text.large {
+  max-width: 320px;
+}
+.text-line {
+  color: #ffffff;
+}
+.max-width {
+  max-width: 210px;
+}
+.btn-icon:last-child {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.card-price {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 900;
+}

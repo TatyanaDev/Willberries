@@ -1,0 +1,57 @@
+.slider {
+  position: relative;
+}
+.slide {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.slide-1 {
+  background-color: #b4d1e0;
+  background-image: url("../img/slide-image-1.png");
+  background-repeat: no-repeat;
+  background-position: top right 25%;
+}
+.label {
+  background-color: #3dc47e;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+}
+.slide-title {
+  color: #262d33;
+  font-size: 55px;
+  line-height: 70px;
+  font-family: "Roboto Slab";
+  margin-top: 20px;
+  margin-bottom: 15px;
+  max-width: 400px;
+}
+.slide-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5157;
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+.btn-2 {
+}
+.btn-price {
+}
+.btn-text {
+}
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.between {
+  justify-content: space-between;
+}
+.slider-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
