@@ -1,6 +1,8 @@
 @import "./assets/css/header.css";
 @import "./assets/css/slider.css";
 @import "./assets/css/content.css";
+@import "./assets/css/sub-content.css";
+@import "./assets/css/footer.css";
 * {
   box-sizing: border-box;
 }

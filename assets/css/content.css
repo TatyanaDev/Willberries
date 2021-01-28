@@ -2,6 +2,9 @@
   padding-top: 3rem !important;
   padding-bottom: 1.5rem !important;
 }
+.bottom {
+  padding-bottom: 1.5rem !important;
+}
 .card {
   min-height: 370px;
   border-radius: 10px;

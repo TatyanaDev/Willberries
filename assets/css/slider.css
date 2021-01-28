@@ -35,12 +35,6 @@
   max-width: 335px;
   margin-bottom: 40px;
 }
-.btn-2 {
-}
-.btn-price {
-}
-.btn-text {
-}
 .slider-nav {
   position: absolute;
   top: 50%;
@@ -54,4 +48,5 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  outline: none;
 }

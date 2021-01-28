@@ -1,0 +1,64 @@
+.footer {
+  background-color: #8f79d4;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+.footer-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-menu-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-text {
+  color: #e7d9ff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-line {
+  opacity: 0.5;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+.between {
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+}
+.social-link {
+  text-decoration: none;
+  margin-left: 15px;
+}
+.paiment-logo {
+  vertical-align: middle;
+  margin-right: 25px;
+}
+.display {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.top-link-text {
+  margin-right: 15px;
+}
