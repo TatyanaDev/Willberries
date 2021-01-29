@@ -1,9 +1,9 @@
 .padding {
-  padding-top: 3rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 }
 .bottom {
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 1.5rem;
 }
 .card {
   min-height: 370px;
@@ -16,21 +16,21 @@
   background-color: #e3e2e3;
   background-image: url("../img/card-image-1.jpg");
   background-size: cover;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem;
 }
 .card-2 {
   background-color: #000000;
   background-image: url("../img/card-image-2.jpg");
   background-size: cover;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem;
 }
 .card-3 {
   padding-top: 35px;
-
   background-color: #ccd5e6;
   background-image: url("../img/card-image-3.png");
   background-size: contain;
   background-position: top right 10%;
+  margin-bottom: 1.5rem;
 }
 .card-4 {
   padding-top: 35px;
@@ -79,4 +79,19 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 900;
+}
+@media (max-width: 1200px) {
+  .card-3 {
+    background-size: cover;
+  }
+}
+@media (max-width: 576px) {
+  .card {
+    background-position: top left;
+    padding: 30px;
+    min-height: 300px;
+  }
+  .card-4 {
+    background-position: top right;
+  }
 }

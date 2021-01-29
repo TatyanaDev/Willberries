@@ -1,6 +1,6 @@
 .center-bottom {
   align-items: center;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem;
 }
 .section-title {
   font-size: 25px;
@@ -50,3 +50,4 @@
   line-height: 30px;
   font-weight: 900;
 }
+

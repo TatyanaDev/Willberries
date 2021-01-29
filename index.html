@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Willberries</title>
     <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css" />
   </head>
   <body class="margin">
     <header class="container header">
       <section class="row center">
-        <div class="col-2">
+        <div class="col-lg-2 col-6">
           <a href="#">
             <img
               class="logo-img"
-              src="./assets/img/logo.svg"
+              src="./assets/icon/logo.svg"
               alt="logo: Willberries"
             />
           </a>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <nav>
             <ul class="navigation">
               <li><a class="nav-link" href="#">WOMENS</a></li>
@@ -32,11 +33,11 @@
             </ul>
           </nav>
         </div>
-        <div class="col-2 justify-content">
+        <div class="col-lg-2 col-6 justify-content">
           <button class="btn">
             <img
               class="btn-icon"
-              src="./assets/img/cart.svg"
+              src="./assets/icon/cart.svg"
               alt="icon: cart"
             />
             <span>Cart</span>
@@ -44,36 +45,80 @@
         </div>
       </section>
     </header>
-    <div class="slider">
-      <section class="slide slide-1">
-        <div class="container">
-          <div class="row">
-            <div class="col-4 offset-lg-1">
-              <span class="label">Bestseller </span>
-              <h2 class="slide-title">Sweater Choker Neck</h2>
-              <p class="slide-description">
-                Women's pearl basic knit sweater with a round neck. Available in
-                severa colours. Free shipping to stores.
-              </p>
-              <button class="btn">
-                <span class="btn-price">$319</span>
-                <span>Shop now</span>
-              </button>
+    <div class="slider swiper-container">
+      <div class="swiper-wrapper">
+        <section class="slide slide-1 swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-10 offset-lg-1">
+                <span class="label">Bestseller </span>
+                <h2 class="slide-title">Sweater Choker Neck</h2>
+                <p class="slide-description">
+                  Women's pearl basic knit sweater with a round neck. Available
+                  in severa colours. Free shipping to stores.
+                </p>
+                <button class="btn">
+                  <span class="btn-price">$319</span>
+                  <span>Shop now</span>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section class="slide slide-2 swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-10 offset-lg-1">
+                <span class="label">New</span>
+                <h2 class="slide-title">Text T-Shirt</h2>
+                <p class="slide-description">
+                  Women's pearl basic knit sweater with a round neck. Available
+                  in severa colours. Free shipping to stores.
+                </p>
+                <button class="btn">
+                  <span class="btn-price">$319</span>
+                  <span>Shop now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide slide-3 swiper-slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-10 offset-lg-1">
+                <span class="label">Bestseller </span>
+                <h2 class="slide-title">Sweater Choker Neck</h2>
+                <p class="slide-description">
+                  Women's pearl basic knit sweater with a round neck. Available
+                  in severa colours. Free shipping to stores.
+                </p>
+                <button class="btn">
+                  <span class="btn-price">$319</span>
+                  <span>Shop now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <div class="slider-nav">
         <div class="container">
           <div class="row between">
             <div class="col-1">
-              <button class="slider-btn">
-                <img src="./assets/img/arrow-prev.svg" alt="icon: arrow-prev" />
+              <button class="slider-btn slider-button-prev">
+                <img
+                  src="./assets/icon/arrow-prev.svg"
+                  alt="icon: arrow-prev"
+                />
               </button>
             </div>
             <div class="col-1">
-              <button class="slider-btn">
-                <img src="./assets/img/arrow-next.svg" alt="icon: arrow-next" />
+              <button class="slider-btn slider-button-next">
+                <img
+                  src="./assets/icon/arrow-next.svg"
+                  alt="icon: arrow-next"
+                />
               </button>
             </div>
           </div>
@@ -82,7 +127,7 @@
     </div>
     <div class="container padding">
       <div class="row bottom">
-        <div class="col-6">
+        <div class="col-xl-6">
           <div class="card card-1">
             <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
             <p class="card-text">
@@ -92,13 +137,13 @@
               <span class="btn-text">View all</span>
               <img
                 class="btn-icon"
-                src="./assets/img/arrow.svg"
+                src="./assets/icon/arrow.svg"
                 alt="icon: arrow"
               />
             </button>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-xl-6">
           <div class="card card-2">
             <h3 class="card-title text-line">
               Catch the Sun: Spring Break Styles From $5.99
@@ -110,13 +155,13 @@
               <span class="btn-text">View all</span>
               <img
                 class="btn-icon"
-                src="./assets/img/arrow.svg"
+                src="./assets/icon/arrow.svg"
                 alt="icon: arrow"
               />
             </button>
           </div>
         </div>
-        <div class="col-9">
+        <div class="col-xl-9 col-lg-6">
           <div class="card card-3">
             <span class="label">Bestseller</span>
             <h3 class="card-title large">Poplin Top<br />With Sleeve Bow</h3>
@@ -129,7 +174,7 @@
             </button>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-6">
           <div class="card card-4">
             <h3 class="card-title text-line max-width">
               Printed Shirt with a Bow
@@ -148,7 +193,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <div class="goods-card">
             <span class="label labe">New</span>
             <img
@@ -160,7 +205,7 @@
             <span class="goods-price">$89</span>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <div class="goods-card">
             <span class="label labe">New</span>
             <img
@@ -172,7 +217,7 @@
             <span class="goods-price">$139</span>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <div class="goods-card">
             <span class="label labe">New</span>
             <img src="./assets/img/image-3.jpg" alt="image: Text T-Shirt" />
@@ -181,7 +226,7 @@
             <span class="goods-price">$59</span>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <div class="goods-card">
             <span class="label labe">New</span>
             <img
@@ -198,7 +243,7 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-7">
+          <div class="col-xl-7">
             <nav>
               <ul class="footer-menu">
                 <li class="footer-menu-item">
@@ -222,56 +267,58 @@
               </ul>
             </nav>
           </div>
-          <div class="col-3 flex">
+          <div class="col-lg-3 flex">
             <span class="footer-text">Follow Us</span>
             <span class="footer-social">
               <a href="#" class="social-link">
-                <img src="./assets/img/facebook.svg" alt="facebook" />
+                <img src="./assets/icon/facebook.svg" alt="facebook" />
               </a>
               <a href="#" class="social-link">
-                <img src="./assets/img/twitter.svg" alt="twitter" />
+                <img src="./assets/icon/twitter.svg" alt="twitter" />
               </a>
               <a href="#" class="social-link">
-                <img src="./assets/img/instagram.svg" alt="instagram" />
+                <img src="./assets/icon/instagram.svg" alt="instagram" />
               </a>
             </span>
           </div>
-          <div class="col-2 display">
+          <div class="col-xl-2 col-lg-3 display">
             <span class="footer-text">© 2019 Universal UI Kit</span>
           </div>
         </div>
         <hr class="footer-line" />
         <div class="row between">
-          <div class="col-4">
+          <div class="col-lg-4 col-sm-9">
             <img
               class="paiment-logo"
-              src="./assets/img/visa.png"
+              src="./assets/icon/visa.png"
               alt="visa logo"
             />
             <img
               class="paiment-logo"
-              src="./assets/img/mastercard.png"
+              src="./assets/icon/mastercard.png"
               alt="mastercard logo"
             />
             <img
               class="paiment-logo"
-              src="./assets/img/paypal.png"
+              src="./assets/icon/paypal.png"
               alt="paypal logo"
             />
             <img
               class="paiment-logo"
-              src="./assets/img/bitcoin.png"
+              src="./assets/icon/bitcoin.png"
               alt="bitcoin logo"
             />
           </div>
-          <div class="col-2 display">
+          <div class="col-lg-2 col-sm-1 display">
             <a href="#" class="top-link">
               <span class="top-link-text">Top</span>
-              <img src="assets/img/top.svg" alt="icon: arrow top" />
+              <img src="assets/icon/top.svg" alt="icon: arrow top" />
             </a>
           </div>
         </div>
       </div>
     </footer>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
