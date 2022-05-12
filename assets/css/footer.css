@@ -1,89 +1,83 @@
 .footer {
   background-color: #8f79d4;
-  padding-top: 45px;
   padding-bottom: 40px;
+  padding-top: 45px;
   color: #ffffff;
 }
-.footer-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 .footer-menu-item:not(:last-child) {
   margin-right: 40px;
 }
+
 .footer-menu-link {
+  line-height: 20px;
+  font-weight: 900;
   color: #ffffff;
-  text-decoration: none;
   font-weight: 900;
   font-size: 14px;
-  line-height: 20px;
 }
+
 .footer-text {
+  line-height: 20px;
   color: #e7d9ff;
   font-size: 14px;
-  line-height: 20px;
 }
+
 .footer-line {
-  opacity: 0.5;
-  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  opacity: 0.5;
 }
-.between {
-  justify-content: space-between;
-}
-.flex {
-  display: flex;
-  align-items: center;
-}
-.footer-social {
-  display: inline-flex;
-  align-items: center;
-}
+
 .social-link {
-  text-decoration: none;
   margin-left: 15px;
 }
+
 .paiment-logo {
   vertical-align: middle;
   margin-right: 25px;
 }
-.display {
-  display: flex;
+
+.license {
   margin-top: 1.5rem;
 }
-.top-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #ffffff;
-}
+
 .top-link-text {
   margin-right: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 14px;
 }
-.col-xl-7 {
+
+.wrapper-footer-menu {
   margin-bottom: 1.5rem;
 }
-@media (min-width: 1200px) {
-  .col-xl-7 {
+
+@media screen and (min-width: 1200px) {
+  .wrapper-footer-menu {
     margin-bottom: 0;
   }
-  .display {
+
+  .license {
     justify-content: flex-end;
     margin-top: 0;
   }
 }
-@media (max-width: 1200px) {
-  .display {
+
+@media screen and (max-width: 1200px) {
+  .license {
     margin-top: 0;
   }
 }
-@media (max-width: 992px) {
-  .display {
+
+@media screen and (max-width: 992px) {
+  .license {
     margin-top: 1.5rem;
   }
 }
-@media (min-width: 575px) {
+
+@media screen and (min-width: 575px) {
   .footer-menu {
     display: flex;
   }

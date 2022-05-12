@@ -1,97 +1,114 @@
-.padding {
-  padding-top: 3rem;
+.card-wrapper {
+  padding: 3rem 0 2.188rem 0;
+}
+
+.card-container {
   padding-bottom: 1.5rem;
 }
-.bottom {
-  padding-bottom: 1.5rem;
-}
+
 .card {
-  min-height: 370px;
-  border-radius: 10px;
-  padding: 60px 46px 80px;
-  background-repeat: no-repeat;
   background-position: top right;
+  background-repeat: no-repeat;
+  padding: 60px 46px 80px;
+  border-radius: 10px;
+  min-height: 370px;
 }
-.card-1 {
+
+.first-card {
+  background-image: url("./../images/background-first-card.jpg");
   background-color: #e3e2e3;
-  background-image: url("../img/card-image-1.jpg");
   background-size: cover;
   margin-bottom: 1.5rem;
 }
-.card-2 {
+
+.second-card {
+  background-image: url("./../images/background-second-card.jpg");
   background-color: #000000;
-  background-image: url("../img/card-image-2.jpg");
   background-size: cover;
   margin-bottom: 1.5rem;
 }
-.card-3 {
-  padding-top: 35px;
-  background-color: #ccd5e6;
-  background-image: url("../img/card-image-3.png");
-  background-size: contain;
+
+.third-card {
+  background-image: url("./../images/background-third-card.png");
   background-position: top right 10%;
-  margin-bottom: 1.5rem;
-}
-.card-4 {
-  padding-top: 35px;
-  padding-left: 25px;
-  background-color: #ff4f52;
-  background-image: url("../img/card-image-4.png");
+  background-color: #ccd5e6;
   background-size: contain;
+  margin-bottom: 1.5rem;
+  padding-top: 35px;
 }
+
+.fourth-card {
+  background-image: url("./../images/background-fourth-card.png");
+  background-color: #ff4f52;
+  background-size: contain;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
 .card-title {
+  font-family: "Roboto Slab";
+  line-height: 30px;
+  font-weight: 700;
+  max-width: 222px;
   color: #262d33;
   font-size: 25px;
-  line-height: 30px;
-  font-family: "Roboto Slab";
-  max-width: 222px;
   margin: 0;
 }
+
 .card-title.large {
-  max-width: 420px;
-  font-size: 40px;
+  margin-bottom: 20px;
   line-height: 50px;
   margin-top: 30px;
-  margin-bottom: 20px;
+  max-width: 420px;
+  font-size: 40px;
 }
+
 .card-text {
+  margin-bottom: 25px;
+  line-height: 20px;
   max-width: 176px;
   color: #4b5157;
   font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 25px;
 }
+
 .card-text.large {
   max-width: 320px;
 }
+
 .text-line {
   color: #ffffff;
 }
-.max-width {
+
+.printed-shirt-header {
   max-width: 210px;
 }
-.btn-icon:last-child {
-  margin-right: 0;
+
+.button-icon:last-child {
   margin-left: 10px;
+  margin-right: 0;
 }
+
 .card-price {
-  color: #ffffff;
-  font-size: 14px;
   line-height: 20px;
+  color: #ffffff;
   font-weight: 900;
+  font-size: 14px;
 }
-@media (max-width: 1200px) {
-  .card-3 {
+
+@media screen and (max-width: 1200px) {
+  .third-card {
     background-size: cover;
   }
 }
-@media (max-width: 576px) {
+
+@media screen and (max-width: 576px) {
   .card {
     background-position: top left;
-    padding: 30px;
     min-height: 300px;
+    padding: 30px;
   }
-  .card-4 {
+
+  .fourth-card {
     background-position: top right;
   }
 }

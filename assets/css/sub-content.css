@@ -1,53 +1,56 @@
-.center-bottom {
-  align-items: center;
+.sub-content-wrapper {
   margin-bottom: 1.5rem;
+  align-items: center;
 }
+
 .section-title {
-  font-size: 25px;
-  line-height: 30px;
   font-family: "Roboto Slab";
+  line-height: 30px;
+  font-weight: 700;
   color: #262d33;
+  font-size: 25px;
 }
-.link {
-  display: flex;
-  justify-content: flex-end;
-}
+
 .more {
-  text-decoration: none;
-  color: #262d33;
-  font-weight: 900;
-  font-size: 14px;
   line-height: 20px;
+  font-weight: 900;
+  color: #262d33;
+  font-size: 14px;
   padding: 10px;
 }
+
 .goods-card {
-  position: relative;
-  text-align: center;
   padding: 30px 36px 35px;
+  text-align: center;
+  position: relative;
 }
+
 .labe {
   position: absolute;
   left: 18px;
   top: 18px;
 }
+
 .goods-title {
-  margin-top: 15px;
+  font-family: "Roboto Slab";
   margin-bottom: 5px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-top: 15px;
   color: #262d33;
   font-size: 16px;
-  line-height: 25px;
-  font-family: "Roboto Slab";
-}
-.goods-description {
-  color: #4b5157;
-  font-size: 14px;
-  line-height: 20px;
-}
-.goods-price {
-  color: #262d33;
-  margin-top: 30px;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 900;
 }
 
+.goods-description {
+  margin-bottom: 20px;
+  line-height: 20px;
+  color: #4b5157;
+  font-size: 14px;
+}
+
+.goods-price {
+  line-height: 30px;
+  color: #262d33;
+  font-weight: 900;
+  font-size: 18px;
+}

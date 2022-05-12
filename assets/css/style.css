@@ -1,0 +1,27 @@
+@import "./bootstrap-grid.min.css";
+@import "./swiper-bundle.min.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./slider.css";
+@import "./content.css";
+@import "./sub-content.css";
+@import "./footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
