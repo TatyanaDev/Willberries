@@ -1,5 +1,6 @@
 .card-wrapper {
-  padding: 3rem 0 2.188rem 0;
+  padding-bottom: 2.188rem;
+  padding-top: 3rem;
 }
 
 .card-container {
